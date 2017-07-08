@@ -1,0 +1,27 @@
+nav.navbar.navbar-toggleable-md.pink {
+  background-color:#F23A65 !important;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  margin:0px !important;
+}
+a.nav-link {
+    color: white !important;
+}
+a.logo.navbar-brand {
+    color: white!important;
+}
+input{
+  color: pink !important;
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}

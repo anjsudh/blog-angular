@@ -4,18 +4,28 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BlogListComponent } from './blog-list/blog-list.component';
+import { BlogTreeComponent } from './blog-tree/blog-tree.component';
+import { BlogSummaryComponent } from './blog-summary/blog-summary.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    BlogListComponent,
+    BlogTreeComponent,
+    BlogSummaryComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
-	DBBootstrapModule.forRoot()
+    HttpModule,
+	  MDBBootstrapModule.forRoot()
   ],
-  schemas: [ NO_ERRORS_SCHEMA ]
+  schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })
