@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -13,7 +13,9 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule
+	DBBootstrapModule.forRoot()
   ],
+  schemas: [ NO_ERRORS_SCHEMA ]
   providers: [],
   bootstrap: [AppComponent]
 })
