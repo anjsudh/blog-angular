@@ -9,7 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogTreeComponent } from './blog-tree/blog-tree.component';
 import { BlogSummaryComponent } from './blog-summary/blog-summary.component';
-
+import { appRoutes } from './app.routing';
 @NgModule({
   declarations: [
     AppComponent,
