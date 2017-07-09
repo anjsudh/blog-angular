@@ -1,0 +1,111 @@
+body{
+  background-color:white !important;
+}
+
+img{
+  width: 100%;
+}
+/* ===================================
+    Parallax
+====================================== */
+
+.overlay{ position: absolute; height: 100%; width: 100%; opacity: 0.2; z-index: 1; top: 0px; }
+.parallax-fix{ position: relative; background-size: cover !important; overflow: hidden; background-position: center center; background-repeat: no-repeat !important; transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s; transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -webkit-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; background-attachment: fixed !important }
+.parallax-fix .row{ position: relative; z-index: 2; }
+.parallax-section-main { /* min-height: 700px; */ }
+.parallax-title { display: block; font-family: "Oswald",sans-serif; font-size: 15px; font-weight: 100; letter-spacing: 7px; margin-bottom: 30px; text-transform: uppercase; }
+.parallax-sub-title{  display: block; font-size: 22px; font-weight: 600; letter-spacing: 4px; line-height: 30px; text-transform: uppercase; }
+.parallax-number { border: 2px solid #000; color: #000; display: inline-block; font-family: "Oswald",sans-serif; font-size: 20px; font-weight: 400; margin:150px 0 60px 0; padding: 9px 0; width:47px; text-align: center; letter-spacing: -2px }
+.fix-background{ position: relative; background-size: cover !important; overflow: hidden; background-position: center center; background-repeat: no-repeat !important; background-attachment: fixed !important}
+.cover-background{ position: relative; background-size: cover !important; overflow: hidden; background-position: center center; background-repeat: no-repeat !important;}
+.background-size-inherit {background-size: inherit !important}
+.blog-blockquote { padding:100px}
+.background-attachment-inherit {background-attachment: inherit !important}
+
+/* ===================================
+    One page
+====================================== */
+
+.tab-portfolio img { transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:1}
+.tab-portfolio:hover img { -ms-transform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2);  transform: scale(1.2,1.2); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.5}
+.tab-portfolio .portfolio-images { width:auto; overflow:hidden; background-color:#000; position:relative;}
+.tab-portfolio .view { left: 0; margin: 0 auto; position: absolute; right: 0; text-align: center; top:-47px; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease;}
+.tab-portfolio:hover .view { top:50%; margin-top:-25px;}
+.tab-portfolio .portfolio-details { padding:20px 20px; text-align:left; border-bottom:1px solid #d4d4d4;}
+.tab-portfolio .portfolio-details span { text-transform:uppercase;}
+.portfolio-right { float: right; margin-top:-10px;}
+.tab-portfolio .portfolio-details h3 { margin:0 0 2px 0;}
+.tab-portfolio .portfolio-details .portfolio-right .fa { color:#000000; margin:0 2px 0 0;}
+#contact-us textarea { min-height: 102px}
+#contact-us .btn { margin:0}
+.required { font-size:11px; display:block; text-transform: uppercase; letter-spacing: 1px}
+.service-year {font-weight: 300; font-size: 20px; text-transform: uppercase; letter-spacing: 5px;}
+.service-year strong { font-weight: 500}
+.clients-slider li { display: inline-block; margin: 0 4%; width: 15%; }
+
+.about-onepage {}
+.about-onepage-number { font-size:45px; line-height: 55px; min-height:60px; -webkit-transition: all 200ms linear; -moz-transition: all 200ms linear; -o-transition: all 200ms linear; -ms-transition: all 200ms linear; transition: all 200ms linear;}
+.about-onepage:hover .about-onepage-number-default {-webkit-transform: translateY(-150%); -moz-transform: translateY(-150%); -ms-transform: translateY(-150%); -o-transform: translateY(-150%); transform: translateY(-150%);}
+.about-onepage:hover .about-onepage-number-hover {-webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%);}
+.about-onepage-number .about-onepage-number-hover { bottom:-50px;}
+.about-onepage-text-sub span {font-size:23px; line-height:28px}
+.about-onepage:hover .about-onepage-text-sub .black-text {  text-decoration: line-through;}
+.about-onepage-text-sub  {margin-left:15px}
+.about-onepage-text-sub p {line-height:22px !important; margin:20px 0}
+.about-onepage:hover .border-right { border-right:2px solid  #f7d23d }
+
+
+/* blog listing classic */
+.blog-listing-classic:hover img { -ms-transform: none; -webkit-transform: none;  transform: none; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:1}
+.blog-image blockquote { border-left:0px; padding: 50px; margin-bottom:0; }
+.blog-image blockquote p {font-size: 20px; line-height:33px}
+.blog-image blockquote p:before {content:"\f10d"; font-family:'FontAwesome'; font-size: 50px; margin-right: 10px; color: #000}
+.blog-listing-classic .blog-image { margin-bottom:25px; background-color: transparent}
+
+/* blog listing full */
+.blog-listing-full { margin-bottom:150px;}
+.blog-listing-full .blog-number { font-family: oswald; font-size: 40px; font-weight: 400; line-height: 40px; position: absolute; text-transform: uppercase; line-height:100px; width:100px }
+.blog-listing-full .blog-date-right { color: #898989; text-transform: uppercase; text-align: left; letter-spacing: 1px; font-size: 11px; padding: 25px 0; line-height: 20px}
+.blog-listing-full .blog-date-right a { display: block; font-size: 14px; font-weight: 600}
+.blog-listing-full .blog-title a {font-family:'Oswald', sans-serif; font-size:30px; margin-bottom: 30px; font-weight: 100; letter-spacing: 1px}
+.blog-listing-full .blog-date { font-family:'Oswald', sans-serif; font-size:20px; font-weight:100; margin:50px 0 20px; letter-spacing: 1px }
+
+/* blog details */
+.blog-details-headline{ font-size:18px; font-weight:600; letter-spacing:3px; padding-bottom:5px }
+.blog-details-text p { margin-bottom:35px; font-size:14px; line-height:28px;}
+.blog-details-text blockquote { margin: 15px 0 50px 0}
+.blog-comment { margin:30px 0; font-size:14px; line-height:28px;}
+.blog-comment .comment-avtar { float: left; max-width: 100px; margin-right:35px; margin-top:10px; }
+.blog-comment .comment-reply { font-weight:600; color: #fff !important; margin-left: 15px; background-color: #000; padding: 3px 8px; letter-spacing: 1px;}
+.blog-comment > .blog-comment { margin-left: 40px;}
+.blog-comment-form-main { padding-top:6%}
+.about-author { display: inline-block; padding: 35px; width: 100%;}
+.about-author-text { font-size:13px; line-height:25px;}
+
+/* blog single full width */
+.full-width-headline h2 { font-family:'Oswald', sans-serif; font-size:40px; font-weight:100; line-height:55px; margin-top:300px;}
+.full-width-headline h2 span { display:block; font-weight:400; }
+.full-width-headline .posted-by {font-size:13px; font-weight:400; margin:30px 0 0; color:#bdbdbd; }
+.full-width-headline .blog-date { padding-top:3px; color:#bdbdbd; font-size:13px; }
+.full-width-headline .blog-date a {color:#bdbdbd; }
+.text-large-full-width { font-size:22px !important; font-weight: 100; line-height: 35px !important}
+.text-med-full-width { font-size:16px !important; line-height: 30px !important}
+.blog-single-full-width-h3 { font-family:'Oswald', sans-serif; font-size:16px; font-weight:400; letter-spacing:3px}
+.blog-single-full-width-form input[type="text"], .blog-single-full-width-form textarea { border:none; border-bottom:1px solid #dfdfdf; padding: 10px 0}
+.blog-single-full-width-form input[type="text"]:focus, .blog-single-full-width-form textarea:focus { border-color: #000}
+
+/* blog single full width with image slider */
+.blog-single-full-width-with-image-slider-header { min-height:650px;}
+.blog-headline { padding:14% 100px 100px;  }
+.blog-single-full-width-with-image-slider-headline {font-family:'Oswald', sans-serif; font-size:50px; font-weight:100; line-height: 64px; width: 70%}
+.blog-headline .posted-by { color: #fff; display: block; font-family: oswald; font-size: 25px; font-weight: 400; margin: 65px 0 10px;}
+.blog-headline .posted-by a { color: #fff; font-weight:100;}
+.blog-headline .blog-date { display: inline-block; font-family: "Oswald",sans-serif; font-size: 15px; font-weight: 100; padding: 40px; position: absolute; top: 0; }
+.blog-headline .blog-date span { display: block; font-size: 50px; font-weight: 400; line-height: 50px; padding-bottom: 5px; }
+.blog-headline .blog-cat a:after { content:"/"; padding:0 15px}
+.blog-headline .blog-cat a:last-child:after {content:""; }
+.blog-blockquote blockquote { width:90%}
+.blog-blockquote blockquote p:before, .blog-blockquote blockquote footer { color:#fff}
+.blog-text { padding: 100px;}
+.blog-text p { width:90%}
+.blog-comment-area { padding:100px;}

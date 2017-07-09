@@ -1,0 +1,9 @@
+<div routerLink="{{blog.url}}" class="col-md-4 col-sm-6 col-xs-6 blog-listing wow fadeInUp animated" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInUp;">
+  <div class="blog-image"><img src="{{blog.image}}" alt=""></div>
+  <div class="blog-details">
+    <div class="blog-date">Posted on {{blog.date | date: 'fullDate'}}</div>
+    <div class="blog-title gray-text">{{blog.title}}</div>
+    <div class="blog-short-description">{{blog.shortDescription}}</div>
+    <div class="separator-line bg-black no-margin-lr"></div>
+  </div>
+</div>

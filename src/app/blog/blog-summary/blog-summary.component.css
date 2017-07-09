@@ -1,0 +1,8 @@
+img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.blog-title{
+  font-weight: bold;
+  padding: 5px 0px;
+}
